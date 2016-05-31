@@ -10,13 +10,48 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Galvanize Films Add</h1>
+    <h1>Galvanize Films</h1>
+    <div class="container">
+      <h2>Add Movie</h2><h3><a href="index.html" class="home">Go Back to Home</a></h3>
+      <div class="row">
+        <div class="col-md-4">
+          <form class="addMovie" action="index.html" method="post">
+            <label for="title">Title</label><br>
+            <input id="title" type="text" name="name" ><br>
+            <label for="genre">Genre</label>
+            <input id="genre" type="text" name="name">
+            <label for="description">Description</label>
+            <textarea id="description" name="description" rows="8" cols="40"></textarea>
+            <label for="url">Cover Picture</label>
+            <input id="url" type="url" name="name">
+            <label for="rating">Rating</label>
+            <select id="rating">
+              <option>G</option>
+              <option>PG</option>
+              <option>PG-13</option>
+              <option>R</option>
+              <option>NC-17</option>
+              <option>NR</option>
+            </select>
+            <input id="submit" type="submit" name="name" value="Add movie">
+            <output name="result" class="message"></output>
+          </form>
+        </div>
+        <div class="col-md-4">
+          <a href="index.html">
+          <img class="seating" src="https://images.unsplash.com/photo-1458053688450-eef5d21d43b3?format=auto&auto=compress&dpr=1&crop=entropy&fit=crop&w=1080&h=718&q=80" alt="seating" /></a>
 
+        </div>
+      </div>
+    </div>
 
-
-
-
-
+  <footer>
+    <div class="container">
+      <p>
+        &copy Copyright 2016
+      </p>
+    </div>
+  </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>

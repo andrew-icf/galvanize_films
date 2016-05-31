@@ -23,9 +23,10 @@ h1 {
 }
 .search button {
   font-size: 2.5rem;
+  margin-top: -15%;
 }
-.movieWidth {
-  width: 35%;
+.search input {
+  width: 80%;
   margin-bottom: 5px;
 }
 footer {
@@ -36,4 +37,34 @@ footer {
 footer p {
   padding-top: 30px;
   font-size: 2rem;
+}
+.link {
+  font-size: 3rem;
+}
+
+ /*                        ADD PAGE                        */
+.home {
+  float: right;
+  margin-top: -3rem;
+  margin-right: 30rem;
+}
+h2 {
+  margin-bottom: 2rem;
+  font-family: 'Bangers', cursive;
+  font-size: 4rem;
+}
+.addMovie label, input, textarea, select {
+  font-size: 2rem;
+  display: block;
+  width: 30rem;
+  margin-bottom: 1rem;
+}
+textarea {
+  resize: none;
+}
+.seating {
+  width: 200%;
+}
+.message {
+  display: none;
 }
