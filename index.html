@@ -11,12 +11,80 @@
   </head>
   <body>
     <h1>Galvanize Films</h1>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="app.js">
+    <main>
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+      </ol>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="http://3.bp.blogspot.com/-fMk9IxLkB2Y/UVvHC8wEzkI/AAAAAAAADAg/KMb2DIdhqF4/s1600/Man%2Bof%2BSteel,hd,wallpapers,free,desktop,backgrounds,free%2Bwallpapers,high%2Bquality%2Bwallpapers,hd%2Bwallpapers,widescreen%2Bwallpapers,hdtv%2Bwallpapers,1080p%2Bwallpapers,stock%2Bphotos.jpg" alt="Action">
+        <div class="carousel-caption">
+          Action
+        </div>
+      </div>
+      <div class="item">
+        <img src="http://1.bp.blogspot.com/-2xkvZG41T5g/U3KG1OBB_1I/AAAAAAAACCk/7azItlKFK0o/s1600/Ratatouille+HD+Wallpapers+2.jpg" alt="Comedy">
+        <div class="carousel-caption">
+          Cartoon
+        </div>
+      </div>
+      <div class="item">
+        <img src="http://3.bp.blogspot.com/-JsL5qi8cwkM/U1obB9zWk1I/AAAAAAAAHHM/GvToaG526fw/s1600/3+hd+copy.jpg" alt="Drama">
+        <div class="carousel-caption">
+          Drama
+        </div>
+      </div>
+      <div class="item">
+        <img src="http://1.bp.blogspot.com/-fVfbtvENqtA/U-XnHu-6RbI/AAAAAAAAdrk/OD2YwkXt65o/s1600/Akshay+Entertainment+Movie+HD+Wallpapers+(4).jpg" alt="Comedy">
+        <div class="carousel-caption">
+          Comedy
+        </div>
+      </div>
+    </div>
 
-    </script>
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div class="container">
+    <section class="text">
+      <span>Searching for Movies.<br>
+      Add your own movies. <br>Can you think of a movie to search for.<br></span>
+    </section>
+    <hr>
+    <section>
+      <div class="form-group">
+        <form class="search" action="index.html" method="post">
+          <label for="movieTitle">Movie Title</label><br>
+          <input placeholder="movie" type="text" name="name" class="movieWidth"> <br>
+          <button type="submit" class="btn btn-default" name="button">Search</button>
+        </form>
+      </div>
+    </section>
+  </div>
+
+</main>
+<footer>
+  <div class="container">
+    <p>
+      &copy Copyright 2016
+    </p>
+  </div>
+</footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
   </body>
 </html>
